@@ -1,0 +1,89 @@
+/* resets */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-color: #70a48b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.header-nav .nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 400px;
+  padding: 40px;
+  margin: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.header-nav .nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+#donation-link {
+  background-color: #1f211c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+main {
+  margin-bottom: 130px;
+}
+
+.company-info,
+.pets {
+  margin: 20px;
+}
+
+.locations h3 {
+  background-color: #70a48b;
+  border: 2px solid black;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images-container img {
+  border-radius: 10px;
+  width: 48%;
+  margin-bottom: 26px;
+}
+
+footer {
+  background-color: #70a48b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-icon {
+  width: 75px;
+  margin: 20px;
+}
